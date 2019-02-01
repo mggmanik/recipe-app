@@ -25,8 +25,6 @@ export class MyApp {
               private authService: AuthService) {
 
     firebase.initializeApp({
-      apiKey: "AIzaSyB5sElAZYpcQ3MhC4L8goFPcNRON1nkb0o",
-      authDomain: "recipe-app-4749b.firebaseapp.com"
     });
 
     firebase.auth().onAuthStateChanged(user => {
